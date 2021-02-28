@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+# React + Recoil + Reactstrap + React-router 보일러 플레이트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프로젝트 설명
 
-## Available Scripts
+해당 프로젝트는 CRA를 이용하여 사용할 기본 라이브러리 및 포매터 설정을 완료한 보일러 플레이트입니다.
 
-In the project directory, you can run:
+## 사용법
 
-### `yarn start`
+### 저장소 복제
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```sh
+git clone https://github.com/gyumnnii/react-boiler-plate
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 실행
 
-### `yarn test`
+- 패키지 매니저로 `yarn`을 사용하고 있습니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+// 패키지 다운로드
+yarn
 
-### `yarn build`
+// 실행 (localhost:3000)
+yarn start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 적용한 라이브러리
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+설정한 라이브러리는 다음과 같습니다.
+|라이브러리|버전|
+|--|--|
+|reactstrap|^8.9.0|
+|recoil|^0.1.2 (베타)|
+|axios|^0.21.1|
+|typescript|^4.1.2|
+|react-router-dom|^5.2.0|
+|husky|4|
+|lint-staged|^10.5.4|
+|eslint|^7.21.0|
+|prettier|^2.2.1|
+**이외에는 CRA에서 기본적으로 설정한 버전을 따라가고 있습니다**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 디렉토리
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+현재 생성된 디렉토리 구조는 다음과 같습니다.
+|디렉토리|설명|
+|--|--|
+|src|소스 코드 폴더|
+|src/api|API call 함수|
+|src/components|React Component|
+|src/pages|React Component(페이지 단위)|
+|src/recoil|Recoil Atom/Selector|
+|src/router|React-router Component|
