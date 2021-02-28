@@ -1,8 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-const Signin=()=>{
-  return(
-    <div>Hello Signin Page!</div>
-  )
-}
-export default Signin
+const Signin = (): JSX.Element => {
+  return <div>Hello Signin Page!</div>;
+};
+export default Signin;

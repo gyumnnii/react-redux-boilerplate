@@ -1,8 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-const Signup=()=>{
-  return(
-    <div>Hello Signup page!</div>
-  )
-}
-export default Signup
+const Signup = (): JSX.Element => {
+  return <div>Hello Signup page!</div>;
+};
+export default Signup;
